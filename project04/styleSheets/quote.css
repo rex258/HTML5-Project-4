@@ -1,0 +1,75 @@
+/*
+    Amairani Zepeda
+    05/07/2020
+*/
+
+form {
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+h3#get_quote {
+    color: #6bb593;
+}
+
+h3#contact {
+    color: white;
+}
+
+input, select, textarea {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+input {
+    display: block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+
+input#other_text {
+    display: inline-block;
+    width: 25%;
+}
+
+fieldset {
+    border: 1px solid #6bb593;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+textarea {
+    height: 90%;
+    width: 97%;
+    border: 1px solid #6bb593;
+    border-radius: 0.5em;
+}
+
+main div {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6bb593;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.button:hover {
+    background-color: #569176;
+    color: #f3f3f3;
+}

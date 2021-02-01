@@ -1,0 +1,140 @@
+/*
+    Amairani Zepeda
+    05/07/2020
+*/
+
+body {
+    background-color: #070707;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header {
+    border-bottom: 1px solid #0561a5;
+}
+
+header div {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav {
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+main {
+    margin: 0 auto;
+    width: 75%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    max-width: 800px;
+    font-size: 120%;
+    box-shadow: 0px 0px 10px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: gray;
+}
+
+main a:link {
+    color: orchid;
+}
+
+a:visited {
+    color: #6bb593;
+}
+
+a:hover {
+    color: plum;
+    text-shadow: 0.1em 0.1em 0.15em #c2c2c2;
+}
+
+a img {
+    height: auto;
+    width: 20px;
+    float: right;
+    filter: invert(100%);
+}
+
+a img:hover {
+    filter: invert(100%) brightness(150%);
+}
+
+h1 {
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cracked, Impact, fantasy;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: #ed7d05;
+}
+
+h2 {
+    padding-top: 1em;
+}
+
+h2, h3 {
+    color: #0561a5;
+}
+
+h4 {
+    color: #6bb593;
+}
+
+footer h4 {
+    color: #0561a5;
+    font-size: 1.5em;
+}
+
+footer {
+    border-top: 1px solid #0561a5;
+    text-align: center;
+    line-height: 0.25em;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width: 40em) {
+    body main {
+        font-size: 85%;
+    }
+
+    header h1 {
+        font-size: 200%;
+    }
+
+    header nav {
+        font-size: 95%;
+    }
+
+    footer {
+        font-size: 95%;
+    }
+
+    .table table {
+        table-layout: fixed;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    div iframe {
+        height: 25vh;
+    }
+}
